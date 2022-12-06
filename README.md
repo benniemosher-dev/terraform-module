@@ -4,6 +4,12 @@
 
 🧱 A Terraform module template repo 🧱
 
+## ✅ TODO:
+
+Things to change when first creating a module:
+
+- [ ] In `.github/workflows/ci-terraform.yml` delete lines 13-14 enabling cost
+
 ## 📋 Documentation
 
 <!-- BEGIN_TF_DOCS -->
