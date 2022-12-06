@@ -9,7 +9,7 @@ jobs:
   lint:
     name: Lint
     # uses: ./.github/workflows/lint.yml
-    uses: "benniemosher-dev/.github/workflows/lint.yml@bam/add-cost-lint-sec-actions"
+    uses: "benniemosher-dev/.github/.github/workflows/lint.yml@bam/add-cost-lint-sec-actions"
 
   # sec:
   #   name: Sec
