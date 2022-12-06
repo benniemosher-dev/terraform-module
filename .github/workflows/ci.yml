@@ -13,5 +13,3 @@ jobs:
   sec:
     name: Sec
     uses: ./.github/workflows/sec.yml
-    secrets:
-      GITHUB_PAT: ${{ secrets.GH_PAT }}
