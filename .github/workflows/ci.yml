@@ -11,12 +11,12 @@ jobs:
     # uses: ./.github/workflows/lint.yml
     uses: "benniemosher-dev/.github/.github/workflows/lint.yml@bam/add-cost-lint-sec-actions"
 
-  sec:
-    name: Sec
-    uses: ./.github/workflows/sec.yml
+  # sec:
+  #   name: Sec
+  #   uses: ./.github/workflows/sec.yml
 
-  cost:
-    name: Cost
-    uses: ./.github/workflows/cost.yml
-    secrets:
-      INFRACOST_API_KEY: ${{ secrets.INFRACOST_API_KEY }}
+  # cost:
+  #   name: Cost
+  #   uses: ./.github/workflows/cost.yml
+  #   secrets:
+  #     INFRACOST_API_KEY: ${{ secrets.INFRACOST_API_KEY }}
