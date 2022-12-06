@@ -10,7 +10,7 @@ on:
 
 jobs:
   sec:
-    name: Run tfsec sarif report
+    name: Sec
     runs-on: ubuntu-latest
     permissions:
       actions: read
