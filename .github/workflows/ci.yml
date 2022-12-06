@@ -1,0 +1,17 @@
+name: Continuous Integration (CI)
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  lint:
+    name: Lint
+    uses: ./.github/workflows/lint.yml
+
+  sec:
+    name: Sec
+    uses: ./.github/workflows/sec.yml
+    secrets:
+      GITHUB_PAT: ${{ secrets.GH_PAT }}
