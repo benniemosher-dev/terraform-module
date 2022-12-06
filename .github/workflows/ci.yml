@@ -13,3 +13,9 @@ jobs:
   sec:
     name: Sec
     uses: ./.github/workflows/sec.yml
+
+  cost:
+    name: Cost
+    uses: ./.github/workflows/cost.yml
+    secrets:
+      INFRACOST_API_KEY: ${{ secrets.INFRACOST_API_KEY }}
