@@ -4,6 +4,14 @@
 
 🧱 A Terraform module template repo 🧱
 
+## ✅ TODO:
+
+Things to change when first creating a module:
+
+- [ ] In `README.md` change `terraform-module` to the name of this module (i.e. `terraform-cloudflare-record`)
+- [ ] In `.github/workflows/ci-terraform.yml` delete lines 13-14 enabling cost
+- [ ] In `README.md` delete the [TODO](README.md#todo) section
+
 ## 📜 Usage:
 
 - To install dependencies needed run:
@@ -49,14 +57,6 @@
   ```bash
   task infra:sec
   ```
-
-## ✅ TODO:
-
-Things to change when first creating a module:
-
-- [ ] In `README.md` change `terraform-module` to the name of this module (i.e. `terraform-cloudflare-record`)
-- [ ] In `.github/workflows/ci-terraform.yml` delete lines 13-14 enabling cost
-- [ ] In `README.md` delete the [TODO](README.md#todo) section
 
 ## 📋 Documentation
 
