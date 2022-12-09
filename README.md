@@ -4,6 +4,52 @@
 
 🧱 A Terraform module template repo 🧱
 
+## 📜 Usage:
+
+- To install dependencies needed run:
+  ```bash
+  brew bundle install
+  ```
+- To initialize Terraform in this folder:
+  ```bash
+  task infra:init
+  ```
+- To update modules and providers in this folder:
+  ```bash
+  task init -- -upgrade
+  ```
+- To validate the module in this folder:
+  ```bash
+  task infra:validate
+  ```
+- To verify you can plan the Terraform in this folder:
+  ```bash
+  task infra:plan
+  ```
+
+### 🆒 Extras:
+
+- To find all the automation available in this folder:
+  ```bash
+  task --list
+  ```
+- To estimate the cost of the infrastructure in this folder:
+  ```bash
+  task infra:cost
+  ```
+- To update the documentation in this folder:
+  ```bash
+  task infra:docs
+  ```
+- To lint the Terraform in this folder:
+  ```bash
+  task infra:lint
+  ```
+- To validate security in this folder:
+  ```bash
+  task infra:sec
+  ```
+
 ## ✅ TODO:
 
 Things to change when first creating a module:
@@ -18,7 +64,9 @@ Things to change when first creating a module:
 
 ## Requirements
 
-No requirements.
+| Name                                                                     | Version |
+| ------------------------------------------------------------------------ | ------- |
+| <a name="requirement_terraform"></a> [terraform](#requirement_terraform) | ~> 1.3  |
 
 ## Providers
 
