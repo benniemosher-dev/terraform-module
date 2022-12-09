@@ -39,7 +39,7 @@ Things to change when first creating a module:
 
 - To find all the automation available in this folder:
   ```bash
-  task --list
+  task --list-all
   ```
 - To estimate the cost of the infrastructure in this folder:
   ```bash
