@@ -48,7 +48,7 @@ Things to change when first creating a module:
 - [ ] In `.github/workflows/ci-terraform.yml` delete lines 13-14 enabling cost
 - [ ] In `README.md` delete the [TODO](README.md#todo) section
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+([back to top](#readme-top))
 
 ## 📜 Usage:
 
@@ -100,7 +100,7 @@ Things to change when first creating a module:
   task infra:sec
   ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+([back to top](#readme-top))
 
 ## 📋 Documentation
 
@@ -139,7 +139,7 @@ No outputs.
 
 <!-- END_TF_DOCS -->
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+([back to top](#readme-top))
 
 [aws-shield]: https://img.shields.io/badge/aws-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white
 [aws-url]: https://aws.amazon.com/
