@@ -141,41 +141,19 @@ No outputs.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<<<<<<< HEAD
 [aws-shield]: https://img.shields.io/badge/aws-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white
 [aws-url]: https://aws.amazon.com/
-=======
-
-> > > > > > > 691f3bf (BAM: Updated with new README items)
-> > > > > > > [contributors-shield]: https://img.shields.io/github/contributors/benniemosher-dev/terraform-module.svg?style=for-the-badge
-> > > > > > > [contributors-url]: https://github.com/benniemosher-dev/terraform-module/graphs/contributors
-> > > > > > > [forks-shield]: https://img.shields.io/github/forks/benniemosher-dev/terraform-module.svg?style=for-the-badge
-> > > > > > > [forks-url]: https://github.com/benniemosher-dev/terraform-module/network/members
-
-# <<<<<<< HEAD
-
+[contributors-shield]: https://img.shields.io/github/contributors/benniemosher-dev/terraform-module.svg?style=for-the-badge
+[contributors-url]: https://github.com/benniemosher-dev/terraform-module/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/benniemosher-dev/terraform-module.svg?style=for-the-badge
+[forks-url]: https://github.com/benniemosher-dev/terraform-module/network/members
+[issues-shield]: https://img.shields.io/github/issues/benniemosher-dev/terraform-module.svg?style=for-the-badge
+[issues-url]: https://github.com/benniemosher-dev/terraform-module/issues
+[license-shield]: https://img.shields.io/github/license/benniemosher-dev/terraform-module.svg?style=for-the-badge
+[license-url]: https://github.com/benniemosher-dev/terraform-module/blob/master/LICENSE.txt
 [stars-shield]: https://img.shields.io/github/stars/benniemosher-dev/terraform-module.svg?style=for-the-badge
 [stars-url]: https://github.com/benniemosher-dev/terraform-module/stargazers
-
-> > > > > > > 691f3bf (BAM: Updated with new README items)
-> > > > > > > [issues-shield]: https://img.shields.io/github/issues/benniemosher-dev/terraform-module.svg?style=for-the-badge
-> > > > > > > [issues-url]: https://github.com/benniemosher-dev/terraform-module/issues
-> > > > > > > [license-shield]: https://img.shields.io/github/license/benniemosher-dev/terraform-module.svg?style=for-the-badge
-> > > > > > > [license-url]: https://github.com/benniemosher-dev/terraform-module/blob/master/LICENSE.txt
-> > > > > > > <<<<<<< HEAD
-> > > > > > > [stars-shield]: https://img.shields.io/github/stars/benniemosher-dev/terraform-module.svg?style=for-the-badge
-> > > > > > > [stars-url]: https://github.com/benniemosher-dev/terraform-module/stargazers
-> > > > > > > [terraform-shield]: https://img.shields.io/badge/terraform-844fba?style=for-the-badge&logo=terraform&logoColor=white
-> > > > > > > [terraform-url]: https://www.terraform.io/
-> > > > > > > [workflow-shield]: https://img.shields.io/github/actions/workflow/status/benniemosher-dev/terraform-module/ci-terraform.yml?logo=github&style=for-the-badge
-
-# [workflow-url]: https://github.com/benniemosher-dev/terraform-module/actions/workflows/ci-terraform.yml
-
-[workflow-shield]: https://img.shields.io/github/actions/workflow/status/benniemosher-dev/terraform-module/ci-terraform.yml?logo=github&style=for-the-badge
-[workflow-url]: https://github.com/benniemosher-dev/terraform-module/actions/workflows/ci-terraform.yml
 [terraform-shield]: https://img.shields.io/badge/terraform-844fba?style=for-the-badge&logo=terraform&logoColor=white
 [terraform-url]: https://www.terraform.io/
-[aws-shield]: https://img.shields.io/badge/aws-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white
-[aws-url]: https://aws.amazon.com/
-
-> > > > > > > 691f3bf (BAM: Updated with new README items)
+[workflow-shield]: https://img.shields.io/github/actions/workflow/status/benniemosher-dev/terraform-module/ci-terraform.yml?logo=github&style=for-the-badge
+[workflow-url]: https://github.com/benniemosher-dev/terraform-module/actions/workflows/ci-terraform.yml
