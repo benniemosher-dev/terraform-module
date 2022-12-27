@@ -20,7 +20,7 @@
   <h1>terraform-module</h1>
   <p>🧱 A Terraform module template repo 🧱</p>
   <p>
-    <a href="https://github.com/github_username/repo_name">Explore the docs</a> | <a href="https://github.com/github_username/repo_name">View Demo</a> | <a href="https://github.com/github_username/repo_name/issues">Report Bug</a> | <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/benniemosher-dev/terraform-module">Explore the docs</a> | <a href="https://github.com/benniemosher-dev/terraform-module">View Demo</a> | <a href="https://github.com/benniemosher-dev/terraform-module/issues">Report Bug</a> | <a href="https://github.com/benniemosher-dev/terraform-module/issues">Request Feature</a>
   </p>
 </div>
 
@@ -44,6 +44,7 @@
 Things to change when first creating a module:
 
 - [ ] In `README.md` change `terraform-module` to the name of this module (i.e. `terraform-cloudflare-record`)
+- [ ] In `README.md` find/replace instances of `benniemosher-dev` and `terraform-module`
 - [ ] In `.github/workflows/ci-terraform.yml` delete lines 13-14 enabling cost
 - [ ] In `README.md` delete the [TODO](README.md#todo) section
 
@@ -109,11 +110,12 @@ Things to change when first creating a module:
 [![AWS][aws-shield]][aws-url]
 
 <!-- BEGIN_TF_DOCS -->
+
 ## Requirements
 
-| Name | Version |
-|------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | ~> 1.3 |
+| Name                                                                     | Version |
+| ------------------------------------------------------------------------ | ------- |
+| <a name="requirement_terraform"></a> [terraform](#requirement_terraform) | ~> 1.3  |
 
 ## Providers
 
@@ -134,23 +136,24 @@ No inputs.
 ## Outputs
 
 No outputs.
+
 <!-- END_TF_DOCS -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+[aws-shield]: https://img.shields.io/badge/aws-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white
+[aws-url]: https://aws.amazon.com/
 [contributors-shield]: https://img.shields.io/github/contributors/benniemosher-dev/terraform-module.svg?style=for-the-badge
 [contributors-url]: https://github.com/benniemosher-dev/terraform-module/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/benniemosher-dev/terraform-module.svg?style=for-the-badge
 [forks-url]: https://github.com/benniemosher-dev/terraform-module/network/members
-[stars-shield]: https://img.shields.io/github/stars/benniemosher-dev/terraform-module.svg?style=for-the-badge
-[stars-url]: https://github.com/benniemosher-dev/terraform-module/stargazers
 [issues-shield]: https://img.shields.io/github/issues/benniemosher-dev/terraform-module.svg?style=for-the-badge
 [issues-url]: https://github.com/benniemosher-dev/terraform-module/issues
 [license-shield]: https://img.shields.io/github/license/benniemosher-dev/terraform-module.svg?style=for-the-badge
 [license-url]: https://github.com/benniemosher-dev/terraform-module/blob/master/LICENSE.txt
-[workflow-shield]: https://img.shields.io/github/actions/workflow/status/benniemosher-dev/terraform-module/ci-terraform.yml?logo=github&style=for-the-badge
-[workflow-url]: https://github.com/benniemosher-dev/terraform-module/actions/workflows/ci-terraform.yml
+[stars-shield]: https://img.shields.io/github/stars/benniemosher-dev/terraform-module.svg?style=for-the-badge
+[stars-url]: https://github.com/benniemosher-dev/terraform-module/stargazers
 [terraform-shield]: https://img.shields.io/badge/terraform-844fba?style=for-the-badge&logo=terraform&logoColor=white
 [terraform-url]: https://www.terraform.io/
-[aws-shield]: https://img.shields.io/badge/aws-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white
-[aws-url]: https://aws.amazon.com/
+[workflow-shield]: https://img.shields.io/github/actions/workflow/status/benniemosher-dev/terraform-module/ci-terraform.yml?logo=github&style=for-the-badge
+[workflow-url]: https://github.com/benniemosher-dev/terraform-module/actions/workflows/ci-terraform.yml
