@@ -32,3 +32,4 @@ infracost.json
 .infracost
 
 Brewfile.lock.json
+.terraform.lock.hcl
