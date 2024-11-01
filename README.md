@@ -46,6 +46,7 @@ Things to change when first creating a module:
 - [ ] In `README.md` change `terraform-module` to the name of this module (i.e. `terraform-cloudflare-record`)
 - [ ] In `README.md` find/replace instances of `benniemosher-dev` and `terraform-module`
 - [ ] In `.github/workflows/ci-terraform.yml` delete lines 13-14 enabling cost
+- [ ] In `.github/workflows/pull_request_templates.md` change the header to the name of this module
 - [ ] In `README.md` delete the [TODO](README.md#todo) section
 
 ([back to top](#readme-top))
