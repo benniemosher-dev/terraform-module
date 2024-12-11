@@ -36,3 +36,7 @@ repos:
           - --args=--path=.
       - id: terraform_validate
       - id: tfupdate
+      - id: terrascan
+        args:
+          - --args=--non-recursive # avoids scan errors on subdirectories without Terraform config files
+          - --args=--policy-type=aws
