@@ -1,10 +1,7 @@
----
-name: Run pre-commit
+name: pre-commit-terraform
 
 on:
-  push:
-
-permissions: read-all
+  pull_request:
 
 jobs:
   pre-commit:
@@ -14,12 +11,15 @@ jobs:
     defaults:
       run:
         shell: bash
-    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
           ref: ${{ github.event.pull_request.head.sha }}
+
+      - run: |
+          git config --global --add safe.directory $GITHUB_WORKSPACE
+          git fetch --no-tags --prune --depth=1 origin +refs/heads/*:refs/remotes/origin/*
 
       - name: Get changed files
         id: file_changes
@@ -27,13 +27,7 @@ jobs:
           export DIFF=$(git diff --name-only origin/${{ github.base_ref }} ${{ github.sha }})
           echo "Diff between ${{ github.base_ref }} and ${{ github.sha }}"
           echo "files=$( echo "$DIFF" | xargs echo )" >> $GITHUB_OUTPUT
-      # - uses: actions/setup-python@v5
-      #   with:
-      #     python-version: "3.12"
-      # - name: Install pre-commit
-      #   run: pip install pre-commit
-      # - name: Run pre-commit
-      # run: pre-commit run --all-files
+
       - name: fix tar dependency in alpine container image
         run: |
           apk --no-cache add tar
