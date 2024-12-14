@@ -3,7 +3,7 @@ on:
   push:
 
 jobs:
-  ci-terraform:
+  ci:
     # uses: "benniemosher-dev/.github/.github/workflows/ci-terraform.yml@main"
     uses: "benniemosher-dev/.github/.github/workflows/ci-terraform.yml@tf-scans"
     with:
