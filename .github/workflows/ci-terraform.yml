@@ -1,12 +1,9 @@
 ---
-name: BennieMosher.dev CI for Terraform
-
 on:
   push:
 
 jobs:
   ci-terraform:
-    name: Continuous Integration for Terraform
     # uses: "benniemosher-dev/.github/.github/workflows/ci-terraform.yml@main"
     uses: "benniemosher-dev/.github/.github/workflows/ci-terraform.yml@tf-scans"
     with:
