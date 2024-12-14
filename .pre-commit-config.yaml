@@ -32,7 +32,6 @@ repos:
       - id: terraform_tflint
       - id: tfupdate
       - id: terraform_docs
-      - id: terraform_checkov
       - id: infracost_breakdown
         args:
           - --args=--path=.
@@ -40,3 +39,7 @@ repos:
         args:
           - --args=--non-recursive # avoids scan errors on subdirectories without Terraform config files
           - --args=--policy-type=aws
+  - repo: https://github.com/bridgecrewio/checkov
+    rev: 3.2.334
+    hooks:
+      - id: checkov_container
