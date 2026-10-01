@@ -1,7 +1,7 @@
 ---
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v6.0.0
+    rev: 3e8a8703264a2f4a69428a0aa4dcb512790b2c8c  # frozen: v6.0.0
     hooks:
       - id: check-added-large-files
       - id: check-case-conflict
@@ -16,16 +16,16 @@ repos:
       - id: double-quote-string-fixer
       - id: end-of-file-fixer
       - id: trailing-whitespace
-  - repo: https://github.com/adrienverge/yamllint.git
-    rev: v1.38.0
+  - repo: https://github.com/adrienverge/yamllint
+    rev: cba56bcde1fdd01c1deb3f945e69764c291a6530  # frozen: v1.38.0
     hooks:
       - id: yamllint
-  - repo: https://github.com/equisoft-devops/equisoft-pre-commit.git
-    rev: v2.1.0
+  - repo: https://github.com/equisoft-devops/equisoft-pre-commit
+    rev: f0479e5d0fc157a12c2d2644ddc60c2d9e796c56  # frozen: v2.1.0
     hooks:
       - id: tfsort
   - repo: https://github.com/antonbabenko/pre-commit-terraform
-    rev: v1.109.2
+    rev: 80c8033123f6d6b9ccd1a9458562ea4180742af7  # frozen: v1.109.2
     hooks:
       - id: terraform_fmt
       - id: terraform_validate
