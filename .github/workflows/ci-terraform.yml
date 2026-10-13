@@ -4,7 +4,7 @@ on:
 
 jobs:
   ci:
-    uses: "benniemosher-dev/.github/.github/workflows/ci-terraform.yml@7df4b50724ff411e18dc338695f75e7025fb8ffa" # v1.2.1
+    uses: "benniemosher-dev/.github/.github/workflows/ci-terraform.yml@c904d2d0e05fa781e58c17c14dda869e27ebb3a9" # v1.2.4
     with:
       enable-cost: false
     secrets:
