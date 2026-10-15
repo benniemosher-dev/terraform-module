@@ -21,7 +21,7 @@ repos:
     hooks:
       - id: yamllint
   - repo: https://github.com/equisoft-devops/equisoft-pre-commit
-    rev: f0479e5d0fc157a12c2d2644ddc60c2d9e796c56  # frozen: v2.1.0
+    rev: 7ff70f1e6602737bf3463e09c106811aa188cc29  # frozen: v2.1.1
     hooks:
       - id: tfsort
   - repo: https://github.com/antonbabenko/pre-commit-terraform
